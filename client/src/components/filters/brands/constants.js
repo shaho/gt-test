@@ -1,0 +1,6 @@
+export const GET_BRANDS = `BRANDS/GET`;
+export const SET_BRANDS = `BRANDS/SET`;
+export const SET_SELECTED_BRANDS = `BRANDS/SET_SELECTED`;
+export const BRANDS_LOADING = `BRANDS/LOADING`;
+export const BRANDS_FAILURE = `BRANDS/FAILURE`;
+export const FILTER_BY_BRANDS = `LIST/BRANDS`;

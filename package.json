@@ -1,0 +1,17 @@
+{
+  "name": "getir-frontend-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "cd client && npm install",
+    "server": "json-server db.json",
+    "start": "concurrently \"npm run server\" \"cd client && npm start\" ",
+    "test": "cd client && npm test",
+    "build": "cd client && react-scripts build"
+  },
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "json-server": "^0.17.0"
+  }
+}

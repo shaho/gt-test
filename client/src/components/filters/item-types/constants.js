@@ -1,0 +1,2 @@
+export const SET_SELECTED_TYPE = `TYPE/SET_SELECTED`;
+export const FILTER_BY_TYPE = `LIST/TYPE`;
